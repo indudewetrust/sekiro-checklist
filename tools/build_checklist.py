@@ -39,6 +39,7 @@ OFFERING_BOX = [
     {"flag": 6769, "name": "Prayer Bead", "source": "Seven Ashina Spears - Shikibu"},
     {"flag": 6766, "name": "Prayer Bead", "source": "General Kuranosuke Matsumoto"},
     {"flag": 6767, "name": "Prayer Bead", "source": "Ashina Elite Jinsuke Saze"},
+    {"flag": 6780, "name": "Prayer Bead", "source": "Lone Shadow Masanaga the Spear-Bearer"},
 ]
 
 # Items whose "have" status is read from held inventory (goods id) instead of a
