@@ -23,7 +23,8 @@ Just want to use it? Grab the exe from the link above. No Python, no install.
    saves - then hit **↻ Refresh** in the page to see updated progress.
 
 No Python, no install. The exe finds your save automatically under
-`%APPDATA%\Sekiro\<steamid>\S0000.sl2`.
+`%APPDATA%\Sekiro\<steamid>\S0000.sl2`; if it can't find it there, it asks you
+to point to your `S0000.sl2` and remembers your choice for next time.
 
 > **Why trust it?** The whole thing is open source (this repo). It opens your
 > save read-only, works on a *copy* in a `work\` folder, and never writes to the

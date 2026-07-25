@@ -8,6 +8,7 @@ __pycache__/
 # runtime output (generated; never commit save data)
 work/
 report.html
+config.json
 *.sl2
 *.sl2.bak
 

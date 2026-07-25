@@ -16,6 +16,7 @@ Refresh to see updated progress.
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import shutil
 import sys
@@ -35,10 +36,69 @@ DEFAULT_PORT = 8765
 
 
 def find_save() -> Path | None:
+    """Auto-detect the newest S0000.sl2 under %APPDATA%\\Sekiro."""
     sekiro_dir = Path(os.environ.get("APPDATA", "")) / "Sekiro"
     candidates = sorted(sekiro_dir.glob("*/S0000.sl2"),
                         key=lambda p: p.stat().st_mtime, reverse=True)
     return candidates[0] if candidates else None
+
+
+def _config_path() -> Path:
+    return ROOT / "config.json"
+
+
+def _remembered_save() -> Path | None:
+    p = _config_path()
+    if p.exists():
+        try:
+            sp = Path(json.loads(p.read_text(encoding="utf-8")).get("save_path", ""))
+            if sp.exists():
+                return sp
+        except Exception:
+            pass
+    return None
+
+
+def _remember_save(path: Path) -> None:
+    try:
+        _config_path().write_text(json.dumps({"save_path": str(path)}),
+                                  encoding="utf-8")
+    except Exception:
+        pass
+
+
+def _pick_save_dialog() -> Path | None:
+    """Native 'open file' dialog fallback when auto-detect finds nothing."""
+    try:
+        import tkinter as tk
+        from tkinter import filedialog
+        root = tk.Tk()
+        root.withdraw()
+        start = Path(os.environ.get("APPDATA", "")) / "Sekiro"
+        chosen = filedialog.askopenfilename(
+            title="Select your Sekiro save file (S0000.sl2)",
+            initialdir=str(start) if start.exists() else str(Path.home()),
+            filetypes=[("Sekiro save", "S0000.sl2 *.sl2"), ("All files", "*.*")])
+        root.destroy()
+        return Path(chosen) if chosen else None
+    except Exception:
+        return None
+
+
+def resolve_save(cli_arg: str | None) -> Path | None:
+    """Find the save: explicit arg, then a remembered choice, then auto-detect,
+    then a file-picker fallback (remembering whatever the user picks)."""
+    if cli_arg:
+        p = Path(cli_arg)
+        return p if p.exists() else None
+    for candidate in (_remembered_save(), find_save()):
+        if candidate:
+            return candidate
+    picked = _pick_save_dialog()
+    if picked and picked.exists():
+        _remember_save(picked)
+        return picked
+    return None
 
 
 def generate_html(src: Path, live: bool, log=lambda *a: None) -> str:
@@ -134,9 +194,10 @@ def main(argv: list[str] | None = None) -> int:
                     help="run a live page that refreshes from the save (default port 8765)")
     args = ap.parse_args(argv)
 
-    src = Path(args.save) if args.save else find_save()
+    src = resolve_save(args.save)
     if src is None or not src.exists():
-        print("No Sekiro save found. Pass the path to S0000.sl2 explicitly.")
+        print("No Sekiro save found or selected. Expected it under "
+              "%APPDATA%\\Sekiro\\<steamid>\\S0000.sl2, or pick it when prompted.")
         return 1
     if not (data_dir() / "flag_blocks.json").exists():
         print("flag_blocks.json is missing - run tools/build_flag_map.py once "
