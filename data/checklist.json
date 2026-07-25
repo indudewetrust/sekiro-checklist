@@ -1,0 +1,1432 @@
+{
+ "diving_flag": 50002050,
+ "diving_ability": "Mibu Breathing Technique",
+ "invasion_flag": 8301,
+ "offering_box": [
+  {
+   "flag": 6723,
+   "name": "Gourd Seed",
+   "source": "General Naomori Kawarada"
+  },
+  {
+   "flag": 6760,
+   "name": "Prayer Bead",
+   "source": "General Naomori Kawarada"
+  },
+  {
+   "flag": 6762,
+   "name": "Prayer Bead",
+   "source": "General Tenzen Yamauchi"
+  },
+  {
+   "flag": 6769,
+   "name": "Prayer Bead",
+   "source": "Seven Ashina Spears - Shikibu"
+  },
+  {
+   "flag": 6766,
+   "name": "Prayer Bead",
+   "source": "General Kuranosuke Matsumoto"
+  },
+  {
+   "flag": 6767,
+   "name": "Prayer Bead",
+   "source": "Ashina Elite Jinsuke Saze"
+  }
+ ],
+ "category_order": [
+  "Prayer Beads",
+  "Gourd Seeds",
+  "Prosthetic Tools",
+  "Esoteric Texts",
+  "Ninjutsu",
+  "Key Items",
+  "Mask Fragments",
+  "Treasure Carp Scales",
+  "Bosses & Memories",
+  "Minibosses"
+ ],
+ "items": [
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 71102270,
+   "desc": "Dropped by General Naomori Kawarada",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6761,
+   "desc": "Dropped by Chained Ogre",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 71102280,
+   "desc": "Dropped by General Tenzen Yamauchi",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6788,
+   "desc": "Chest on the top floor of the building up the stairs past Gyoubu",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6763,
+   "desc": "Dropped by Shinobi Hunter Enshin of Misen",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6764,
+   "desc": "Dropped by Juzou the Drunkard",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6789,
+   "desc": "Chest behind the shinobi door before the Audience Chamber",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6765,
+   "desc": "Dropped by Blazing Bull",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 71102210,
+   "desc": "Dropped by General Kuranosuke Matsumoto",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 71102220,
+   "desc": "Dropped by Ashina Elite Jinsuke Saze",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6790,
+   "desc": "Chest past the shinobi door in the Upper Tower map room (two fencers)",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 71102290,
+   "desc": "Dropped by Seven Ashina Spears - Shikibu Toshikatsu Yamauchi",
+   "area": "Ashina Reservoir",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6770,
+   "desc": "Dropped by Lone Shadow Longswordsman",
+   "area": "Ashina Reservoir",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 71111000,
+   "desc": "From the Dungeon Memorial Mob in Abandoned Dungeon",
+   "area": "Abandoned Dungeon",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6776,
+   "desc": "Dropped by Tokujiro the Glutton",
+   "area": "Hidden Forest",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6777,
+   "desc": "Dropped by O'Rin",
+   "area": "Mibu Village",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6795,
+   "desc": "On a shrine on the upper floor of the Head Priest's house",
+   "area": "Mibu Village",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6796,
+   "desc": "Chest at the bottom of the Mibu Village pond",
+   "area": "Mibu Village",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6773,
+   "desc": "Dropped by Snake Eyes Shirafuji",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6774,
+   "desc": "Dropped by Long-arm Centipede Giraffe",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6775,
+   "desc": "Dropped by Snake Eyes Shirahagi",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6792,
+   "desc": "Backtrack from the Under-Shrine Valley idol toward the Headless cave",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6793,
+   "desc": "Deep in the caves under Giraffe's room - grapple up the ravine to the skull, then the centipede pit",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6794,
+   "desc": "Grapple left before the burrow drop, wall-jump to the cliff over Poison Pool, then the statue's head",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6798,
+   "desc": "Dropped by Headless Ape",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6799,
+   "desc": "Dropped by Headless Ape",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6771,
+   "desc": "Dropped by Armored Warrior",
+   "area": "Senpou Temple",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6772,
+   "desc": "Dropped by Long Arm Centipede Sen-Un",
+   "area": "Senpou Temple",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6791,
+   "desc": "Underwater in the Temple Grounds pond",
+   "area": "Senpou Temple",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6783,
+   "desc": "Dropped by Sakura Bull of the Palace",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6784,
+   "desc": "Dropped by Okami Leader Shizu",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6797,
+   "desc": "In the chest guarded by the two underwater Headless",
+   "area": "Fountainhead Palace",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6781,
+   "desc": "Dropped by Lone Shadow Masanaga the Spear-bearer",
+   "area": "Hirata Estate (Father's Memory)",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6782,
+   "desc": "Dropped by Juzou the Drunkard",
+   "area": "Hirata Estate (Father's Memory)",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6787,
+   "desc": "Dropped by Shigekichi of the Red Guard",
+   "area": "Ashina Outskirts (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6778,
+   "desc": "Dropped by Chained Ogre",
+   "area": "Ashina Castle (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6779,
+   "desc": "Dropped by Lone Shadow Vilehand",
+   "area": "Ashina Castle (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6780,
+   "desc": "Dropped by Lone Shadow Masanaga the Spear-bearer",
+   "area": "Ashina Castle (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6785,
+   "desc": "Dropped by Ashina Elite Ujinari Mizuo",
+   "area": "Ashina Castle (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Prayer Beads",
+   "name": "Prayer Bead",
+   "flag": 6786,
+   "desc": "Dropped by Seven Ashina Spears - Shume Masaji Oniwa",
+   "area": "Ashina Reservoir (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Gourd Seeds",
+   "name": "Gourd Seed",
+   "flag": 71101210,
+   "desc": "From the Battlefield Memorial Mob in Ashina Outskirts",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Gourd Seeds",
+   "name": "Gourd Seed",
+   "flag": 71102000,
+   "desc": "From the Fujioka the Info Broker in Ashina Outskirts",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Gourd Seeds",
+   "name": "Gourd Seed",
+   "flag": 71102250,
+   "desc": "Dropped by General Naomori Kawarada",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Gourd Seeds",
+   "name": "Gourd Seed",
+   "flag": 6725,
+   "desc": "Left room of the lookout building after the Chained Ogre",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Gourd Seeds",
+   "name": "Gourd Seed",
+   "flag": 6726,
+   "desc": "Chest just before the Upper Tower Antechamber",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Gourd Seeds",
+   "name": "Gourd Seed",
+   "flag": 6728,
+   "desc": "By the tree in the underground villagers' area",
+   "area": "Mibu Village",
+   "requires": ""
+  },
+  {
+   "category": "Gourd Seeds",
+   "name": "Gourd Seed",
+   "flag": 6724,
+   "desc": "In Under-Shrine Valley, after two branch grapples climb the wall on the left instead of heading to the idol",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Gourd Seeds",
+   "name": "Gourd Seed",
+   "flag": 6727,
+   "desc": "Main room of the cricket building, before the Infested Seeker",
+   "area": "Senpou Temple",
+   "requires": ""
+  },
+  {
+   "category": "Gourd Seeds",
+   "name": "Gourd Seed",
+   "flag": 6729,
+   "desc": "Chest in the Palace Grounds building",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Prosthetic Tools",
+   "name": "Mechanical Barrel",
+   "flag": 6740,
+   "desc": "Dropped by Gyoubu Oniwa",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Prosthetic Tools",
+   "name": "Robert's Firecrackers",
+   "flag": 71101000,
+   "desc": "From the Crow's Bed Memorial Mob in Ashina Outskirts",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Prosthetic Tools",
+   "name": "Sabimaru",
+   "flag": 71101650,
+   "desc": "From the Sculptor after you find the Sabimaru",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Prosthetic Tools",
+   "name": "Shuriken Wheel",
+   "flag": 71102230,
+   "desc": "On the 2nd floor of the building by the Gate Path idol (or Offering Box after the invasion)",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Prosthetic Tools",
+   "name": "Flame Barrel",
+   "flag": 6502,
+   "desc": "By the bandits' bonfire",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Prosthetic Tools",
+   "name": "Mist Raven's Feathers",
+   "flag": 6504,
+   "desc": "In the Three-Story Pagoda, guarded by a Lone Shadow",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Prosthetic Tools",
+   "name": "Shinobi Axe of the Monkey",
+   "flag": 6503,
+   "desc": "In the shrine where bandits argue about looting it",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Prosthetic Tools",
+   "name": "Iron Fortress",
+   "flag": 71111500,
+   "desc": "Sold by Blackhat Badger; left behind when he leaves for Senpou, or his Offering Box if killed",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Prosthetic Tools",
+   "name": "Sabimaru",
+   "flag": 6505,
+   "desc": "Chest in the Upper Tower basement",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Prosthetic Tools",
+   "name": "Gyoubu's Broken Horn",
+   "flag": 71102240,
+   "desc": "Chest in the Ashina Reservoir Gate House",
+   "area": "Ashina Reservoir",
+   "requires": ""
+  },
+  {
+   "category": "Prosthetic Tools",
+   "name": "Large Fan",
+   "flag": 6507,
+   "desc": "In Giraffe's room, in front of the statue",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Prosthetic Tools",
+   "name": "Slender Finger",
+   "flag": 6509,
+   "desc": "Dropped by Guardian Ape",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Esoteric Texts",
+   "name": "Ashina Esoteric Text",
+   "flag": 50006244,
+   "desc": "From Tengu after you kill the rats (or his Ashina Castle spot if refused, after Divine Dragon)",
+   "area": "Ashina Outskirts",
+   "requires": "",
+   "item": 2922
+  },
+  {
+   "category": "Esoteric Texts",
+   "name": "Prosthetic Esoteric Text",
+   "flag": 6706,
+   "desc": "From the Sculptor after you collect 3 prosthetic tools",
+   "area": "Ashina Outskirts",
+   "requires": "",
+   "item": 2921
+  },
+  {
+   "category": "Esoteric Texts",
+   "name": "Shinobi Esoteric Text",
+   "flag": 6705,
+   "desc": "From the Sculptor after your first skill point",
+   "area": "Ashina Outskirts",
+   "requires": "",
+   "item": 2920
+  },
+  {
+   "category": "Esoteric Texts",
+   "name": "Mushin Esoteric Text",
+   "flag": 50006246,
+   "desc": "From Isshin/Emma once you max out any one combat art tree (learn Shadowrush, Living Force, Ashina Cross, or High Monk)",
+   "area": "Ashina Castle",
+   "requires": "",
+   "item": 2924
+  },
+  {
+   "category": "Esoteric Texts",
+   "name": "Senpou Esoteric Text",
+   "flag": 6708,
+   "desc": "Inside the pagoda past the cave near the Main Hall side entrance",
+   "area": "Senpou Temple",
+   "requires": "",
+   "item": 2923
+  },
+  {
+   "category": "Ninjutsu",
+   "name": "Bloodsmoke Ninjutsu",
+   "flag": 6745,
+   "desc": "Dropped by Genichiro",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Ninjutsu",
+   "name": "Bestowal Ninjutsu",
+   "flag": 6747,
+   "desc": "Dropped by Headless Ape upon deathblow",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Ninjutsu",
+   "name": "Puppeteer Ninjutsu",
+   "flag": 6746,
+   "desc": "Dropped by Folding Screen Monkeys",
+   "area": "Senpou Temple",
+   "requires": ""
+  },
+  {
+   "category": "Key Items",
+   "name": "Shinobi Prosthetic",
+   "flag": 50003060,
+   "desc": "Given when you first reach the Dilapidated Temple",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Key Items",
+   "name": "Young Lord's Bell Charm",
+   "flag": 50006160,
+   "desc": "Given by Inosuke's Mother",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Key Items",
+   "name": "Hidden Temple Key",
+   "flag": 50006120,
+   "desc": "From the dying Owl in the courtyard up Bamboo Thicket Slope",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Key Items",
+   "name": "Sakura Droplet",
+   "flag": 6750,
+   "desc": "Dropped by Lady Butterfly",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Key Items",
+   "name": "Father's Bell Charm",
+   "flag": 50006232,
+   "desc": "From Emma after the eavesdrop chain (Castle Lookout, Old Grave, Dilapidated Temple)",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Key Items",
+   "name": "Gun Fort Shrine Key",
+   "flag": 51110860,
+   "desc": "In Kuro's Room library - opens after you ask Isshin about the Mortal Blade",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Key Items",
+   "name": "Gatehouse Key",
+   "flag": 51110984,
+   "desc": "Dropped by a soldier on the bridge leading to the Abandoned Dungeon entrance",
+   "area": "Ashina Reservoir",
+   "requires": ""
+  },
+  {
+   "category": "Key Items",
+   "name": "Mibu Breathing Technique",
+   "flag": 50002050,
+   "desc": "Dropped by Corrupted Monk",
+   "area": "Mibu Village",
+   "requires": ""
+  },
+  {
+   "category": "Key Items",
+   "name": "Shelter Stone",
+   "flag": 51500050,
+   "desc": "On the cave altar",
+   "area": "Mibu Village",
+   "requires": ""
+  },
+  {
+   "category": "Key Items",
+   "name": "Lotus of the Palace",
+   "flag": 51700000,
+   "desc": "After the Guardian Ape fight",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Key Items",
+   "name": "Mortal Blade",
+   "flag": 50006224,
+   "desc": "Given by the Divine Child",
+   "area": "Senpou Temple",
+   "requires": ""
+  },
+  {
+   "category": "Key Items",
+   "name": "Divine Dragon's Tears",
+   "flag": 50002070,
+   "desc": "Dropped by Divine Dragon",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Key Items",
+   "name": "Aromatic Branch",
+   "flag": 50002090,
+   "desc": "Dropped by Owl",
+   "area": "Ashina Castle (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Key Items",
+   "name": "Secret Passage Key",
+   "flag": 50006236,
+   "desc": "From Emma in Kuro's Room after Divine Dragon",
+   "area": "Ashina Castle (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Mask Fragments",
+   "name": "Mask Fragment: Right",
+   "flag": 71001020,
+   "desc": "From Pot Noble Harunaga (Hirata), or Koremori in Fountainhead with Truly Precious Bait",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Mask Fragments",
+   "name": "Mask Fragment: Dragon",
+   "flag": 71111010,
+   "desc": "From the Dungeon Memorial Mob in Abandoned Dungeon",
+   "area": "Abandoned Dungeon",
+   "requires": ""
+  },
+  {
+   "category": "Mask Fragments",
+   "name": "Mask Fragment: Left",
+   "flag": 72501000,
+   "desc": "From Pot Noble Koremori (Fountainhead), or Harunaga in Hirata with Truly Precious Bait",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 51000280,
+   "desc": "Behind a rock on the shore before the first bridge",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500960,
+   "desc": "Dropped by Treasure Carp on the surface of the Dragonspring lake",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500961,
+   "desc": "Dropped by Treasure Carp on the surface of the Dragonspring lake",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500962,
+   "desc": "Dropped by Treasure Carp on the surface of the river under the Bamboo Thicket Slope bridge",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500963,
+   "desc": "Dropped by underwater Treasure Carp in the river under the Bamboo Thicket Slope bridge",
+   "area": "Hirata Estate",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500964,
+   "desc": "Dropped by one of the two underwater Treasure Carp in Dragonspring lake",
+   "area": "Hirata Estate",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500965,
+   "desc": "Dropped by one of the two underwater Treasure Carp in Dragonspring lake",
+   "area": "Hirata Estate",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 51110460,
+   "desc": "Underwater in the moat below the Ashina Castle idol",
+   "area": "Ashina Castle",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500966,
+   "desc": "Dropped by the underwater Treasure Carp in the moat below the Ashina Castle Sculptor's Idol",
+   "area": "Ashina Castle",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 71501070,
+   "desc": "From the Exiled Memorial Mob in Mibu Village (sells 2)",
+   "area": "Mibu Village",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 50006281,
+   "desc": "Dropped by the Head Priest after you give him Water of the Palace",
+   "area": "Mibu Village",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 51500230,
+   "desc": "End of the river by the Mibu Village idol, guarded by a Lone Shadow",
+   "area": "Mibu Village",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500967,
+   "desc": "Dropped by an underwater Treasure Carp up the river from the Water Mill Sculptor's Idol",
+   "area": "Mibu Village",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 51700920,
+   "desc": "Underwater in the Great Serpent's lake, just before the Riven Cave",
+   "area": "Sunken Valley",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500968,
+   "desc": "Dropped by the underwater Treasure Carp closer to the Riven Cave entrance",
+   "area": "Sunken Valley",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500969,
+   "desc": "Dropped by the underwater Treasure Carp farther from the Riven Cave entrance",
+   "area": "Sunken Valley",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500970,
+   "desc": "Dropped by a Treasure Carp on the surface of the Temple Grounds pond",
+   "area": "Senpou Temple",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500971,
+   "desc": "Dropped by a Treasure Carp on the surface of the Temple Grounds pond",
+   "area": "Senpou Temple",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 50006250,
+   "desc": "From the Master's Chamberlain after one Precious Bait (or the end of his quest)",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 50006251,
+   "desc": "From the Master's Chamberlain after two Precious Baits (or the end of his quest)",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500100,
+   "desc": "Across the floor hole in Mibu Manor, before the Flower Viewing Stage idol",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500120,
+   "desc": "Across the floor hole in Mibu Manor, before the Flower Viewing Stage idol",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500440,
+   "desc": "In the submerged building along the right lake wall from Vermilion Bridge",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500450,
+   "desc": "In the submerged building along the right lake wall from Vermilion Bridge",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500460,
+   "desc": "In the submerged building along the right lake wall from Vermilion Bridge",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500480,
+   "desc": "Near the chest guarded by the two underwater Headless",
+   "area": "Fountainhead Palace",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500490,
+   "desc": "Near the chest guarded by the two underwater Headless",
+   "area": "Fountainhead Palace",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500570,
+   "desc": "Across the floor hole in Mibu Manor, before the Flower Viewing Stage idol",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500972,
+   "desc": "Dropped by a underwater Treasure Carp near the bridge where the Okami Warrior is dancing",
+   "area": "Fountainhead Palace",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500973,
+   "desc": "Dropped by an underwater Treasure Carp between the bridge where the Okami Warrior is dancing and the massive abov-ewater roof",
+   "area": "Fountainhead Palace",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500974,
+   "desc": "Dropped by an underwater Treasure Carp underneath Feeding Grounds",
+   "area": "Fountainhead Palace",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500975,
+   "desc": "Dropped by an underwater Treasure Carp before the completely submerged building on the right wall of the lake",
+   "area": "Fountainhead Palace",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500976,
+   "desc": "Dropped by an underwater Treasure Carp near the first house with the Palace Nobles",
+   "area": "Fountainhead Palace",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500977,
+   "desc": "Dropped by an underwater Treasure Carp underneath the Great Sakura branch",
+   "area": "Fountainhead Palace",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Treasure Carp Scales",
+   "name": "Treasure Carp Scale",
+   "flag": 52500978,
+   "desc": "Dropped by an underwater Treasure Carp in the middle of the lake above the Underwater Headless area",
+   "area": "Fountainhead Palace",
+   "requires": "Mibu Breathing Technique"
+  },
+  {
+   "category": "Bosses & Memories",
+   "name": "Gyoubu Masataka Oniwa",
+   "flag": 9301,
+   "desc": "Defeat Gyoubu Masataka Oniwa",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Bosses & Memories",
+   "name": "Lady Butterfly",
+   "flag": 9302,
+   "desc": "Defeat Lady Butterfly",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Bosses & Memories",
+   "name": "Genichiro Ashina",
+   "flag": 9303,
+   "desc": "Defeat Genichiro Ashina",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Bosses & Memories",
+   "name": "Isshin Ashina",
+   "flag": 9316,
+   "desc": "Defeat Isshin Ashina",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Bosses & Memories",
+   "name": "Corrupted Monk (Illusion)",
+   "flag": 9306,
+   "desc": "Defeat Corrupted Monk (Illusion)",
+   "area": "Mibu Village",
+   "requires": ""
+  },
+  {
+   "category": "Bosses & Memories",
+   "name": "Headless Ape",
+   "flag": 9314,
+   "desc": "Defeat Headless Ape",
+   "area": "Ashina Depths",
+   "requires": ""
+  },
+  {
+   "category": "Bosses & Memories",
+   "name": "Guardian Ape",
+   "flag": 9304,
+   "desc": "Defeat Guardian Ape",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Bosses & Memories",
+   "name": "Folding Screen Monkeys",
+   "flag": 9305,
+   "desc": "Defeat Folding Screen Monkeys",
+   "area": "Senpou Temple",
+   "requires": ""
+  },
+  {
+   "category": "Bosses & Memories",
+   "name": "Divine Dragon",
+   "flag": 9310,
+   "desc": "Defeat Divine Dragon",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Bosses & Memories",
+   "name": "True Corrupted Monk",
+   "flag": 9309,
+   "desc": "Defeat True Corrupted Monk",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Bosses & Memories",
+   "name": "Owl (Father)",
+   "flag": 9317,
+   "desc": "Defeat Owl (Father)",
+   "area": "Hirata Estate (Father's Memory)",
+   "requires": ""
+  },
+  {
+   "category": "Bosses & Memories",
+   "name": "Demon of Hatred",
+   "flag": 9313,
+   "desc": "Defeat Demon of Hatred",
+   "area": "Ashina Outskirts (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Bosses & Memories",
+   "name": "Great Shinobi - Owl",
+   "flag": 9308,
+   "desc": "Defeat Great Shinobi - Owl",
+   "area": "Ashina Castle (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Bosses & Memories",
+   "name": "Isshin, the Sword Saint",
+   "flag": 9312,
+   "desc": "Defeat Isshin, the Sword Saint",
+   "area": "Ashina Castle (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Chained Ogre (Outskirts)",
+   "flag": 11100310,
+   "desc": "Defeat Chained Ogre (Outskirts)",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "General Naomori Kawarada",
+   "flag": 11100300,
+   "desc": "Defeat General Naomori Kawarada",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "General Tenzen Yamauchi",
+   "flag": 11100301,
+   "desc": "Defeat General Tenzen Yamauchi",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Headless (Ako)",
+   "flag": 11100330,
+   "desc": "Defeat Headless (Ako)",
+   "area": "Ashina Outskirts",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Juzou the Drunkard",
+   "flag": 11000300,
+   "desc": "Defeat Juzou the Drunkard",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Shinobi Hunter Enshin of Misen",
+   "flag": 11000330,
+   "desc": "Defeat Shinobi Hunter Enshin of Misen",
+   "area": "Hirata Estate",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Ashina Elite - Jinsuke Saze",
+   "flag": 11110504,
+   "desc": "Defeat Ashina Elite - Jinsuke Saze",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Blazing Bull",
+   "flag": 11110440,
+   "desc": "Defeat Blazing Bull",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "General Kuranosuke Matsumoto",
+   "flag": 20005340,
+   "desc": "Defeat General Kuranosuke Matsumoto",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Headless (Ungo)",
+   "flag": 11110660,
+   "desc": "Defeat Headless (Ungo)",
+   "area": "Ashina Castle",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Leader Shigenori Yamauchi",
+   "flag": 11120390,
+   "desc": "Defeat Leader Shigenori Yamauchi",
+   "area": "Ashina Reservoir",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Lone Shadow Longswordsman",
+   "flag": 11120450,
+   "desc": "Defeat Lone Shadow Longswordsman",
+   "area": "Ashina Reservoir",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Seven Ashina Spears - Shikibu Toshikatsu Yamauchi",
+   "flag": 11120530,
+   "desc": "Defeat Seven Ashina Spears - Shikibu Toshikatsu Yamauchi",
+   "area": "Ashina Reservoir",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Shichimen Warrior (Abandoned Dungeon)",
+   "flag": 11300200,
+   "desc": "Defeat Shichimen Warrior (Abandoned Dungeon)",
+   "area": "Abandoned Dungeon",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Headless (Gachiin)",
+   "flag": 11500680,
+   "desc": "Defeat Headless (Gachiin)",
+   "area": "Hidden Forest",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Mist Noble",
+   "flag": 11500200,
+   "desc": "Defeat Mist Noble",
+   "area": "Hidden Forest",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "O'Rin of the Water",
+   "flag": 11500690,
+   "desc": "Defeat O'Rin of the Water",
+   "area": "Mibu Village",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Shichimen Warrior (Guardian Ape's Burrow)",
+   "flag": 11700520,
+   "desc": "Defeat Shichimen Warrior (Guardian Ape's Burrow)",
+   "area": "Ashina Depths",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Snake Eyes Shirahagi",
+   "flag": 11700201,
+   "desc": "Defeat Snake Eyes Shirahagi",
+   "area": "Ashina Depths",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Tokujiro the Glutton",
+   "flag": 11500490,
+   "desc": "Defeat Tokujiro the Glutton",
+   "area": "Ashina Depths",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Headless (Gokan)",
+   "flag": 11700500,
+   "desc": "Defeat Headless (Gokan)",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Long-arm Centipede Giraffe",
+   "flag": 11700425,
+   "desc": "Defeat Long-arm Centipede Giraffe",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Snake Eyes Shirafuji",
+   "flag": 11700200,
+   "desc": "Defeat Snake Eyes Shirafuji",
+   "area": "Sunken Valley",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Armored Warrior",
+   "flag": 12000400,
+   "desc": "Defeat Armored Warrior",
+   "area": "Senpou Temple",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Long-arm Centipede Sen-Un",
+   "flag": 12000279,
+   "desc": "Defeat Long-arm Centipede Sen-Un",
+   "area": "Senpou Temple",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Headless (Yashariku)",
+   "flag": 12500550,
+   "desc": "Defeat Headless (Yashariku)",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Okami Leader Shizu",
+   "flag": 12500406,
+   "desc": "Defeat Okami Leader Shizu",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Sakura Bull of the Palace",
+   "flag": 12500570,
+   "desc": "Defeat Sakura Bull of the Palace",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Shichimen Warrior (Fountainhead)",
+   "flag": 12500580,
+   "desc": "Defeat Shichimen Warrior (Fountainhead)",
+   "area": "Fountainhead Palace",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Juzou the Drunkard (Revisited)",
+   "flag": 11000301,
+   "desc": "Defeat Juzou the Drunkard (Revisited)",
+   "area": "Hirata Estate (Father's Memory)",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Lone Shadow Masanaga the Spear-Bearer (Hirata)",
+   "flag": 11000353,
+   "desc": "Defeat Lone Shadow Masanaga the Spear-Bearer (Hirata)",
+   "area": "Hirata Estate (Father's Memory)",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Shigekichi of the Red Guard",
+   "flag": 11100480,
+   "desc": "Defeat Shigekichi of the Red Guard",
+   "area": "Ashina Outskirts (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Ashina Elite - Ujinari Mizuo",
+   "flag": 11110511,
+   "desc": "Defeat Ashina Elite - Ujinari Mizuo",
+   "area": "Ashina Castle (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Chained Ogre (Castle)",
+   "flag": 11110620,
+   "desc": "Defeat Chained Ogre (Castle)",
+   "area": "Ashina Castle (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Lone Shadow Masanaga the Spear-Bearer (Castle)",
+   "flag": 11110316,
+   "desc": "Defeat Lone Shadow Masanaga the Spear-Bearer (Castle)",
+   "area": "Ashina Castle (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Lone Shadow Vilehand",
+   "flag": 11110305,
+   "desc": "Defeat Lone Shadow Vilehand",
+   "area": "Ashina Castle (Invasion)",
+   "requires": ""
+  },
+  {
+   "category": "Minibosses",
+   "name": "Seven Ashina Spears - Shume Masaji Oniwa",
+   "flag": 11120521,
+   "desc": "Defeat Seven Ashina Spears - Shume Masaji Oniwa",
+   "area": "Ashina Reservoir (Invasion)",
+   "requires": ""
+  }
+ ]
+}

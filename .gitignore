@@ -1,0 +1,15 @@
+# build artifacts
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# runtime output (generated; never commit save data)
+work/
+report.html
+*.sl2
+*.sl2.bak
+
+# not redistributable — clone SoulsRandomizers here yourself to rebuild data
+vendor/
